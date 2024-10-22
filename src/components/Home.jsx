@@ -1,7 +1,7 @@
 export default function Home(){
     return(
         <>
-            <h1>Raju Gundu</h1>
+            <h1 className="text-white">Raju Gundu</h1>
         </>
     )
 }

@@ -18,7 +18,9 @@ export default function Header() {
           <HeaderNav href="#experience" className={navStyle}>Experience</HeaderNav>
         </nav>
       </div>
-      <hr className="mt-2 w-11/12 mx-auto border-slate-500" />
+      <div className="flex justify-center mt-2">
+        <div className="w-11/12 h-1 bg-gradient-to-r from-transparent via-slate-500 to-transparent"></div>
+      </div>
     </>
   );
 }
